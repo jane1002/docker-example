@@ -8,4 +8,6 @@
 2. docker ps --all (show all containers)
 3. docker start + id: will restart the exited docker image again.
 4. docker system prune: remove all containers, clean the cache
-5. docker logs + id'
+5. docker logs + id': not restart, just log the msg.
+6. docker create busybox echo hi there: get the container ID
+7. stop/kill containers: docker stop/kill + id
