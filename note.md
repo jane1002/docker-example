@@ -11,3 +11,6 @@
 5. docker logs + id': not restart, just log the msg.
 6. docker create busybox echo hi there: get the container ID
 7. stop/kill containers: docker stop/kill + id
+8. docker run redis.
+9. docker exec -it + id + command(redis-cli)
+10. docker exec -it 0927bf42cdad sh : sh call a command processor.
